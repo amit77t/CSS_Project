@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100%;
+            height: 100%;
+            min-height: 900px;
+            background-image: linear-gradient(to right, #ec77ab 0%, #7873f5 100%);
+           display: flex;
+           align-items: center;
+           justify-content:center;
+        }
+        .class{
+            width: 400px;
+            height: 600px;
+            background-color: beige;
+            border-radius: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .class img{
+            width: 400px;
+            height: 150px;
+            
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            
+        }
+        .textbox{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 25px;
+            width: 80%;
+        }
+        #amoutbox{
+            width: 300px;
+            height: 50px;
+            background-image: linear-gradient(-225deg, #40e7df 0%, #F9FEA5 100%);
+            border-radius: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+        }
+        #leftbox{
+           
+            display: flex;
+            gap: 15px;
+            height: 100%;
+            align-items: center;
+
+        }
+        .imgbox img{
+            height: 2rem;
+            width: 3rem;
+        }
+        #rightbox{
+
+        }
+        #payment{
+            width: 80%;
+            height: 9%;
+            background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+            border-radius: 10px;
+            box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+     
+        }
+        .cancelbox a{
+            text-decoration: none;
+            color: black;
+            font-weight: 1;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="class">
+            <img src="online-shopping-landing-page_107791-406.jpg" alt="">
+            <div class="textbox">
+                <h2>Order Summary</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint eum possimus id mollitia quisquam aliquam dolore cumque fugiat? Omnis sit eos unde soluta hic eaque accusantium dolorem consequatur mollitia ipsam!
+
+                </p>
+            </div>
+            <div id="amoutbox">
+                <div id="leftbox">
+                    <div class="imgbox">
+                        <img src="myimg.png" alt="">
+                    </div>
+                    <div class="textamout">
+                        <p>Amount</p>
+                        <p>$99.9/year</p>
+                    </div>
+
+                </div>
+
+                <div id="rightbox">
+                    <a href="#">Change</a>
+                </div>
+
+
+                
+            </div>
+            <button id="payment">
+                Proceed to Payment
+
+            </button>
+            <div class="cancelbox">
+                <a href="#">Cancel Order</a>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+</html>
